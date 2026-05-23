@@ -1,15 +1,9 @@
-Thank you for downloading MIDI Matrix Monitor.
+Thank you for your interest in MIDI Matrix Monitor.
 
-INSTALLATION
+This application is a visually customizable MIDI monitor for macOS, built for MIDI guitarists, MPE users, producers and performers with complex MIDI setups.
 
-Unzip this file.
-Drag MIDI Matrix Monitor.app to your Applications folder.
-Launch the app.
-If macOS warns that the app was downloaded from the internet, choose Open.
-TRIAL AND LICENSING MIDI Matrix Monitor includes a 14-day trial. To continue using the app after the trial period, purchase and activate a license from inside the app.
+MIDI Matrix Monitor includes a 14-day trial. To continue using the app after the trial period, purchase and activate a license from inside the app.
 
-SUPPORT For support, contact: vaultnaemsae@icloud.com
+For technical support please contact: vaultnaemsae@icloud.com
 
-WEBSITE https://vaultnaemsae.com
-
-RELEASE NOTES See RELEASE_NOTES.md included with this download.
+See what I'm working on at: https://vaultnaemsae.com
