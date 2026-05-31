@@ -1,3 +1,33 @@
+# MIDI Matrix Monitor 1.0.7
+
+This update fixes MIDI Clock visibility in the Global MIDI Stream.
+
+## Bug fixes
+
+* Fixed an issue where MIDI Clock messages could be received and parsed but not displayed in the Global MIDI Stream.
+* MIDI Clock now appears correctly as a channel-less realtime MIDI event.
+* MIDI Clock events are shown with channel --, rather than being incorrectly routed through channel-specific handling.
+* MIDI Clock no longer depends on per-channel note, CC, meter, or activity display paths.
+
+Realtime MIDI message handling
+
+MIDI Matrix Monitor now correctly logs channel-less MIDI realtime messages globally, including:
+
+* Clock
+* Start
+* Continue
+* Stop
+
+These messages are displayed in the Global MIDI Stream and do not affect per-channel monitor activity.
+
+Note for saved setups
+
+Fresh/default monitor setups now have realtime/Clock display enabled by default.
+
+Older saved monitor setups may still have realtime messages hidden if they were saved with that filter disabled. If MIDI Clock does not appear after updating, enable the Clock/realtime filter in the Global MIDI Stream settings and save the setup again.
+
+__________________________________________________________________________________________________________________________________________________________
+
 # MIDI Matrix Monitor 1.0.6
 
 Build 3
