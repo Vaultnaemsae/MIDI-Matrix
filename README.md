@@ -1,26 +1,20 @@
 # MIDI Matrix Monitor
 
-MIDI Matrix Monitor is a macOS MIDI monitoring utility designed for MIDI guitarists, multi-channel MIDI setups, and anyone who needs a clear real-time view of MIDI activity.
+A macOS MIDI monitor for making dense MIDI activity readable at a glance.
 
-It is especially useful for monitoring MIDI guitar systems, pitch-to-MIDI converters, multi-channel MIDI streams, watched CCs, program changes, notes, pitch bend, pressure, and other MIDI activity in a compact visual interface.
+MIDI Matrix Monitor is built for MIDI guitarists, multi-channel MIDI rigs, pitch-to-MIDI systems, and complex controller setups where a normal scrolling MIDI event list becomes difficult to interpret quickly.
 
-## Download
+It gives you a compact visual matrix for notes, program changes, pitch bend, pressure, watched CCs, and recent MIDI events across multiple channels, with single-channel inspection when you need a closer look.
 
-Download the latest version from the Releases page:
+## Current release
 
-https://github.com/Vaultnaemsae/MIDI-Matrix-Monitor/releases/latest
+**MIDI Matrix Monitor 1.0.6**
 
-## Current Version
-
-The latest release is **MIDI Matrix Monitor 1.0.6**.
-
-Release notes are available here:
-
-https://github.com/Vaultnaemsae/MIDI-Matrix-Monitor/blob/main/RELEASE_NOTES.md
+Includes long-list scrolling fixes for MIDI input and Panic destination pickers, plus major usability improvements to channel visibility, single-channel inspection, horizontal/vertical layouts, and watched CC display.
 
 ## Trial
 
-MIDI Matrix Monitor includes a 14-day free trial.
+Includes a 14-day free trial.
 
 ## Platform
 
@@ -28,4 +22,4 @@ macOS only.
 
 ## Feedback
 
-Feedback, bug reports, and feature suggestions are welcome.
+Bug reports, feature suggestions, and MIDI-guitar-specific feedback are welcome.
