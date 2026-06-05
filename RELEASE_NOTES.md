@@ -1,3 +1,68 @@
+# MIDI Matrix Monitor 1.0.8 
+
+— What’s New
+
+## New BPM Display
+
+MIDI Matrix Monitor can now show the tempo of incoming MIDI Clock directly in the main header.
+
+When a MIDI Clock signal is detected, the app displays a clear BPM value such as `120 BPM`. A small white pulse light flashes with the beat, giving quick visual feedback that clock is being received.
+
+The BPM display is designed to stay stable and readable, rather than constantly flickering from tiny timing variations.
+
+## Choose a Separate Clock Source
+
+You can now choose where MIDI Matrix Monitor gets its MIDI Clock from.
+
+This is useful if you want to monitor MIDI notes from one app or device, while reading tempo from another. For example, you can monitor MIDI Guitar 3 while taking clock from your DAW.
+
+Clock Source options include:
+
+- Auto
+- Any available MIDI input port
+
+Clock Source choices can also be saved with user presets.
+
+## Improved Selector Controls
+
+The main selector menus are now easier to use from the keyboard.
+
+- Press `I` for MIDI Input.
+- Press `B` for BPM / Clock Source.
+- Press `K` for Panic Destination.
+
+When a selector is open, you can use the arrow keys to move through the list, press Return to select, or press Escape to close it.
+
+## Safer Panic Button
+
+The Panic button is now harder to trigger accidentally.
+
+- Single-click opens the Panic Destination selector.
+- Double-click sends Panic.
+- `⌘.` still sends Panic immediately.
+
+This makes it easier to choose where Panic messages are sent while keeping emergency access available.
+
+## Better All Inputs Monitoring
+
+When monitoring all MIDI inputs, the Global Stream can now show which device or app each event came from.
+
+This makes it easier to understand complex MIDI routing and spot where messages are coming from.
+
+The old label `All Inputs (Diagnostic)` has been simplified to `All Inputs`.
+
+## Cleaner Interface
+
+This update also includes several small interface improvements:
+
+- The BPM display now uses a neutral white/light grey style.
+- The Channel Selector now starts hidden by default.
+- `PCs` has been renamed to `Program Changes`.
+- Pin controls now use simpler labels: `Pin (P)` and `Unpin (P)`.
+- Selector menus have been cleaned up and made more consistent.
+- Several old helper messages and unused interaction paths were removed.
+________________________________________________________________________________________________________________________
+
 # MIDI Matrix Monitor 1.0.7
 
 This update fixes MIDI Clock visibility in the Global MIDI Stream.
