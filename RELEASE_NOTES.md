@@ -1,3 +1,46 @@
+# MIDI Matrix Monitor 1.0.9
+
+Version 1.0.9 delivers a major refinement of window resizing and screen-size compatibility, particularly for users working on 1080p displays.
+
+## Highlights
+
+- Restored the ability to display all 16 MIDI channels on a 1920 × 1080 display in Horizontal mode when the Global MIDI Stream is collapsed.
+- Improved Vertical mode so all 16 channel rows can fit more effectively on smaller displays, including when the macOS Dock is visible.
+- Added more intelligent adaptive sizing for channel columns and rows.
+- Improved use of available space when manually resizing the application window.
+
+## Window and layout improvements
+
+- Horizontal channel columns now resize dynamically according to the available window width.
+- Wider windows distribute additional space evenly across the channel display instead of leaving unused black space.
+- When the Global MIDI Stream is visible, it retains a practical fixed width while the channel monitor uses the remaining space.
+- When the Global MIDI Stream is collapsed, the channel monitor expands to use the full window width.
+- Improved Fit Window behaviour while preserving manual resizing.
+- Retained horizontal and vertical scrolling as fallbacks for genuinely constrained window sizes.
+- Improved layout consistency when switching between Horizontal, Vertical and Single Channel views.
+
+## Vertical view improvements
+
+- Reduced unnecessary vertical spacing on constrained displays.
+- Improved adaptive row sizing while maintaining readable channel information.
+- Prevented the final channel row from being clipped at the bottom of the screen in common 1080p configurations.
+
+## MIDI input selector improvements
+
+- Long MIDI input-device names now truncate cleanly instead of colliding with the input connector icon.
+- The connector icon now retains its proper size and spacing.
+- Full input names remain available through the input-selection menu and tooltip.
+
+## Bug fixes
+
+- Fixed a regression that reduced the number of visible Horizontal channels from 16 to approximately 14 on 1080p displays.
+- Fixed unused black space appearing when the application window was expanded on higher-resolution monitors.
+- Fixed incorrect width allocation that caused the Global MIDI Stream area to consume excessive space.
+- Fixed mismatches between calculated layout dimensions and the actual rendered channel display.
+- Improved window sizing calculations across different monitor resolutions and Dock configurations.
+
+--------------------------------------------------
+
 # MIDI Matrix Monitor 1.0.8 
 
 — What’s New
