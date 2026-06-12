@@ -8,7 +8,7 @@ It gives you a compact visual matrix for notes, program changes, pitch bend, pre
 
 ## Current release
 
-**MIDI Matrix Monitor 1.0.6**
+**MIDI Matrix Monitor 1.0.9**
 
 Includes long-list scrolling fixes for MIDI input and Panic destination pickers, plus major usability improvements to channel visibility, single-channel inspection, horizontal/vertical layouts, and watched CC display.
 
