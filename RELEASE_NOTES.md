@@ -1,3 +1,32 @@
+# MIDI Matrix Monitor 1.1.0
+
+This update focuses on design parity with the newly released iPadOS application, MIDI Matrix Monitor for iPad.
+
+## New
+
+- Added a dedicated **MIDI Matrix Monitor Virtual Input** for routing MIDI directly into the application from other macOS software.
+- Added explicit MIDI input modes:
+  - No Input
+  - All Inputs
+  - MIDI Matrix Monitor Virtual Input
+  - Individual MIDI devices
+
+## Improved
+
+- Improved MIDI input monitoring with clearer connection and waiting status.
+- Improved MIDI device detection, hot-plugging and automatic refresh behaviour.
+- Improved restoration of previously selected MIDI inputs between sessions.
+- Improved handling of long MIDI device names within the input selector.
+
+## Fixed
+
+- Fixed **No Input** mode so MIDI monitoring is fully disabled when selected.
+- Fixed MIDI device refresh and reconnection edge cases.
+- Fixed waiting-state behaviour when switching between MIDI inputs.
+- Fixed several user interface and stability issues.
+
+--------------------------------------------------
+
 # MIDI Matrix Monitor 1.0.9
 
 Version 1.0.9 delivers a major refinement of window resizing and screen-size compatibility, particularly for users working on 1080p displays.
