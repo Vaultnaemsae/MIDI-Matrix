@@ -1,3 +1,9 @@
+# MIDI Matrix Monitor 1.1.1
+
+AUv3 has landed! Please install the standalone to make the plugins accessible. Plug-in vendor name: Vaultnaemsae.
+
+--------------------------------------------------
+
 # MIDI Matrix Monitor 1.1.0
 
 This update focuses on design parity with the newly released iPadOS application, MIDI Matrix Monitor for iPad.
