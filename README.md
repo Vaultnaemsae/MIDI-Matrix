@@ -8,9 +8,9 @@ It gives you a compact visual matrix for notes, program changes, pitch bend, pre
 
 ## Current release
 
-**MIDI Matrix Monitor 1.1.0**
+**MIDI Matrix Monitor 1.1.1**
 
-Includes long-list scrolling fixes for MIDI input and Panic destination pickers, plus major usability improvements to channel visibility, single-channel inspection, horizontal/vertical layouts, and watched CC display.
+In addition to an updated standalone application, version 1.1.1 adds AUv3 plug-in versions: 1-channel, 8-channel, and 16-channel MIDI effect plug-ins for use in compatible DAWs.
 
 ## Trial
 
